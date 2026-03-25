@@ -19,9 +19,9 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: dnf
-    # repos:
-    #   files:
-    #   - https://repository.mullvad.net/rpm/stable/mullvad.repo
+    repos:
+      files:
+      - https://repository.mullvad.net/rpm/stable/mullvad.repo
     #   copr:
     #     - atim/starship
     install:
@@ -39,7 +39,7 @@ modules:
       - aria2
       - wget
       - yt-dlp
-      # - mullvad-vpn
+      - mullvad-vpn
       - fuse-sshfs
       - mpv
       - qutebrowser
@@ -68,11 +68,7 @@ modules:
       - qbittorrent
       - python3-toml
 
-      - java-21-openjdk
-      - java-17-openjdk
-      - java-1.8.0-openjdk
-
-      - openwm
+      - openmw
 
       # Fonts
       - google-noto-sans-cjk-fonts
