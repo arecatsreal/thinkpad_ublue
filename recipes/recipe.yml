@@ -58,6 +58,7 @@ modules:
       - ncdu
       # - pinentry-qt
       - librewolf
+      - stow
 
       - speedcrunch
       - fd-find
