@@ -23,8 +23,8 @@ modules:
       files:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
       - https://repo.librewolf.net/librewolf.repo
-    #   copr:
-    #     - atim/starship
+      copr:
+        - archdron/hyprland
     install:
       packages:
       - niri
@@ -56,9 +56,10 @@ modules:
       - golang
       - pipx
       - ncdu
-      # - pinentry-qt
       - librewolf
       - stow
+      - swww
+      - satty
 
       - speedcrunch
       - fd-find
