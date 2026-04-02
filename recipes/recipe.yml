@@ -76,10 +76,10 @@ modules:
       - google-noto-sans-cjk-fonts
       - google-noto-emoji-fonts
       - google-noto-color-emoji-fonts
-    remove:
-      packages:
-        - fedora-release-kde
-        - kwin
+    # remove:
+    #   packages:
+    #     - fedora-release-kde
+    #     - kwin
 
   - type: default-flatpaks
     configurations:
