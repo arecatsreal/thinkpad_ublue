@@ -24,7 +24,7 @@ modules:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
       - https://repo.librewolf.net/librewolf.repo
       copr:
-        - archdron/hyprland
+        - solopasha/hyprland
     install:
       packages:
       - niri
