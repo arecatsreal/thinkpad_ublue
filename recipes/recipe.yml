@@ -60,6 +60,7 @@ modules:
       - stow
       - swww
       - satty
+      - pulseaudio-module-bluetooth
 
       - speedcrunch
       - fd-find
