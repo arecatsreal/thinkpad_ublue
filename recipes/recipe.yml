@@ -93,10 +93,10 @@ modules:
         - org.prismlauncher.PrismLauncher
         - com.adamcake.Bolt
 
-  - type: kargs
-    arch: x86_64
-    kargs:
-      # Set keybord layout
-      - rd.vconsole.keymap=us-colemak_dh_ortho
-
+  # - type: kargs
+  #   arch: x86_64
+  #   kargs:
+  #     # Set keybord layout
+  #     - rd.vconsole.keymap=us-colemak_dh_ortho
+  #
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
