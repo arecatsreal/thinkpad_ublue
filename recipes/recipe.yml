@@ -6,7 +6,7 @@ name: template
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite
+base-image: ghcr.io/ublue-os/bazzite-dx
 
 image-version: stable
 
@@ -28,6 +28,7 @@ modules:
     install:
       packages:
       - niri
+      - lxqt-niri-session
       - alacritty
       - newsboat
       - btop
@@ -60,6 +61,12 @@ modules:
       - stow
       - swww
       - satty
+
+      - swaybg
+
+      - swaylock
+      - swayidle
+      - polkit-kde
 
       - speedcrunch
       - fd-find
