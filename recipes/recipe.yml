@@ -29,6 +29,10 @@ modules:
       packages:
       - niri
       - lxqt-niri-session
+      - xdg-desktop-portal-lxqt
+      - sddm
+      - fedora-release-lxqt
+
       - alacritty
       - newsboat
       - btop
@@ -61,12 +65,13 @@ modules:
       - stow
       - swww
       - satty
+      - brightnessctl
 
       - swaybg
 
       - swaylock
       - swayidle
-      - polkit-kde
+      # - polkit-kde
 
       - speedcrunch
       - fd-find
@@ -85,10 +90,10 @@ modules:
       - google-noto-sans-cjk-fonts
       - google-noto-emoji-fonts
       - google-noto-color-emoji-fonts
-    # remove:
-    #   packages:
-    #     - fedora-release-kde
-    #     - kwin
+    remove:
+      packages:
+        - fedora-release-kde
+        - kwin
 
   - type: default-flatpaks
     configurations:
